@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Profit Social Business</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Our Non-Profit Social Business</h1>
+        <p>We tackle the lack of fresh, affordable, and healthy food by converting vacant lots into gardens and farms.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to create small farm-to-table restaurants using crops from our gardens and farms. We are funded through local government grants and sales of crops to local farmers markets.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <p>We are working on converting vacant lots into productive gardens and farms. Check out our latest projects!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Get Involved</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/YourPage">Facebook</a></li>
+            <li><a href="https://www.instagram.com/YourPage">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
