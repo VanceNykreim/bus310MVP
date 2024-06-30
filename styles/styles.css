@@ -48,26 +48,6 @@ nav ul li a:hover {
     display: block;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-    .banner-desktop {
-        display: none;
-    }
-    .banner-mobile {
-        display: block;
-    }
-}
-
-/* Desktop styles */
-@media (min-width: 769px) {
-    .banner-desktop {
-        display: block;
-    }
-    .banner-mobile {
-        display: none;
-    }
-}
-
 section {
     padding: 40px 20px;
     margin: 20px auto;
